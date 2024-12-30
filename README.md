@@ -1,7 +1,7 @@
 # Foodborne Disease Outbreaks
 
 ### Background
-
+Foodborne diseases are a significant public health concern globally, causing widespread morbidity and mortality. These illnesses result from the consumption of contaminated food or beverages, harboring pathogenic microorganisms such as bacteria (e.g., Salmonella, E. coli), viruses (e.g., norovirus), parasites, or chemical agents (e.g., aflatoxin, dioxin). Outbreaks occur when multiple cases of illness are traced to a common food source, often highlighting vulnerabilities in food production, processing, or handling systems. In 2015, the World Health Organization (WHO) released its first estimates of the global burden of foodborne diseases. The report revealed that contaminated food causes 600 million illnesses, 420 000 deaths, and 33 million lost healthy years annually, affecting 1 in 10 people worldwide [Havelaar et al, 2015](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001923).
 
 ### Project aim
 The objective of this project is to analyze patterns in foodborne disease outbreaks to enhance understanding of their etiologies and inform strategies for their prevention. 
