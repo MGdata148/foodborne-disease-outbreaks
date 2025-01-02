@@ -23,6 +23,8 @@ The dataset `outbreaks` [(Foodborne Disease Outbreaks 1998-2015)](https://www.ka
 - `hospitalizations` - the number of individuals who required hospitalization as a result of the illness
 - `fatalities` - the number of deaths attributable to the illness
 
+Despite the main table two dimension tables were prepared: `food_categories` and `species_categories`. Additional tables contain more general information on contaminated food and contamination agent to enable better data analysis.
+
 ### Research questions
 1. How have foodborne disease outbreaks evolved over time?
 2. Which foods and locations pose the highest risk for foodborne disease contamination?
