@@ -1,0 +1,1001 @@
+food;food_category
+null;Unknown
+Multiple Foods;Multiple Foods
+Oysters, Raw;Fish and Seafood
+Chicken, Unspecified;Meat
+Ground Beef, Hamburger;Meat
+Salad, Unspecified;Vegetables
+Chicken, Other;Meat
+Pizza, Unspecified;Other
+Lettuce-Based Salads Unspecified;Vegetables
+Sandwich, Submarine;Fish and Seafood
+Pork, Bbq;Meat
+Fish, Mahi Mahi;Fish and Seafood
+Chicken, Fried;Meat
+Potato Salad;Vegetables
+Tuna, Unspecified;Fish and Seafood
+Chicken Salad;Meat
+Pizza, Meat;Meat
+Fried Rice, Unspecified;Rice and Groats
+Rice, Unspecified;Rice and Groats
+Sandwich, Unspecified;Other
+Chicken;Meat
+Ice;Water
+Ground Beef, Cheeseburger;Meat
+Fish, Ahi;Fish and Seafood
+Ground Beef, Unspecified;Meat
+Sandwich, Deli;Other
+Refried Beans, Unspecified;Vegetables
+Green Salad;Vegetables
+Sandwich, Chicken;Meat
+Sandwich, Turkey;Meat
+Cake, Unspecified;Sweets and Pastry
+Eggs, Unspecified;Eggs
+Ethnic Style, Unspecified;Other
+Coleslaw;Vegetables
+Salsa, Unspecified;Other
+Milk, Whole Milk Unpasteurized;Dairy
+Turkey, Unspecified;Meat
+Sushi, Unspecified;Fish and Seafood
+House Salad;Vegetables
+Chicken, Buffalo Wings;Meat
+Pork, Roasted;Meat
+Taco, Beef;Meat
+Fruit Salad;Fruit
+Raw Milk;Dairy
+Chicken, Nuggets/Fingers;Meat
+Pasta Salad;Rice and Groats
+Fish, Baracuda;Fish and Seafood
+Caesar Salad;Meat
+Steak, Prime Rib;Meat
+Fish, Escolar;Fish and Seafood
+Roast Beef, Unspecified;Meat
+Beef, Other;Meat
+Pizza, Meat And Vegetable;Multiple Foods
+Beef, Unspecified;Meat
+Lettuce, Unspecified;Vegetables
+Fish, Grouper, Unspecified;Fish and Seafood
+Burrito, Unspecified;Other
+Salads;Other
+Ham, Unspecified;Meat
+Salad Bar;Other
+Shrimp, Unspecified;Fish and Seafood
+Ground Beef;Meat
+Macaroni Salad;Rice and Groats
+Fish, Amberjack;Fish and Seafood
+Tomato, Unspecified;Vegetables
+Turkey, Roasted;Meat
+Macaroni And Cheese;Dairy
+Rice, White;Rice and Groats
+Tuna Burger;Fish and Seafood
+Pork, Other;Meat
+Turkey;Meat
+Unspecified Fish;Fish and Seafood
+Pizza, Cheese;Dairy
+Ground Beef, Other;Meat
+Ethnic Style, Buffet;Multiple Foods
+Pizza;Other
+Tuna Steak;Fish and Seafood
+Mixed Fruit;Fruit
+Whole Milk, Unpasteurized;Dairy
+Buffet;Multiple Foods
+Chicken, Bbq;Meat
+Guacamole;Vegetables
+Lettuce;Vegetables
+Salmon, Unspecified;Fish and Seafood
+Roast Beef, Other;Meat
+Soda, Unspecified;Beverages
+Rice;Rice and Groats
+Pork;Meat
+Chicken, Baked;Meat
+Ice Cream, Homemade;Dairy
+Cantaloupe;Fruit
+Chicken, Roasted;Meat
+Milkshake;Dairy
+Steak, Unspecified;Meat
+Chicken, Grilled;Meat
+Lettuce Based Salads;Vegetables
+Cake;Sweets and Pastry
+Crab, Unspecified;Fish and Seafood
+Taco, Unspecified;Rice and Groats
+Tuna Salad;Fish and Seafood
+Sauces, Unspecified;Other
+Ice Cream, Unspecified;Dairy
+Other Food;Other
+Spaghetti, Unspecified;Rice and Groats
+Burrito, Chicken;Meat
+Oysters;Fish and Seafood
+Pork, Unspecified;Meat
+Bread, Unspecified;Bread
+Yellowfin Tuna;Fish and Seafood
+Sandwich, Roast Beef;Meat
+Crab Cakes;Fish and Seafood
+Greek Salad;Vegetables
+Alfalfa Sprouts;Vegetables
+Hot Dog, Unspecified;Meat
+Oysters, Unspecified;Fish and Seafood
+Fish, Tuna;Fish and Seafood
+Other Milk, Unpasteurized;Dairy
+Gravy, Unspecified;Other
+Mashed Potato/Gravy;Vegetables
+Sandwich, Beef;Meat
+Burrito, Beef;Meat
+Potato, Mashed;Vegetables
+Beef, Bbq;Meat
+Ground Beef, Meatballs;Meat
+Pasta, Unspecified;Other
+Egg Rolls;Eggs
+Fajita, Chicken;Meat
+Nachos, Unspecified;Rice and Groats
+Stuffing, Unspecified;Other
+Turkey, Smoked;Meat
+Turkey And Gravy;Meat
+Chicken, Teriyaki;Meat
+Unspecified Fruit;Fruit
+Steak, Other;Meat
+Cake, Chocolate;Sweets and Pastry
+Ham, Other;Meat
+French Fries;Vegetables
+Fish, Roi;Fish and Seafood
+Beans, Unspecified;Vegetables
+Sandwich, Ham;Meat
+Apple Cider, Unpasteurized;Beverages
+Strawberries;Fruit
+Mushrooms;Mushrooms
+Multiple Salads;Multiple Foods
+Ice Cream, Commercial;Dairy
+Chicken And Rice;Meat
+Beans, Baked;Vegetables
+Salsa;Other
+Sandwich, Other Specialty;Other
+Enchilada, Chicken;Meat
+Beef;Meat
+Ribs, Pork;Meat
+Shrimp Dishes Unspecified;Fish and Seafood
+Milk, Unpasteurized;Dairy
+Turkey, Baked;Meat
+Vegetable-Based Salads Unspecified;Vegetables
+Other Cheese, Unspecified;Dairy
+Queso Fresco, Unpasteurized;Dairy
+Cookies, Unspecified;Sweets and Pastry
+Water;Water
+Bbq, Unspecified;Meat
+Gravy, Beef;Meat
+Chips And Salsa;Rice and Groats
+Salad;Vegetables
+Deli Meat, Sliced Turkey;Meat
+Tuna, Raw;Fish and Seafood
+Chicken And Noodles;Meat
+Beef, Stew;Meat
+Fish, Grouper;Fish and Seafood
+Chile Relleno, Unspecified;Other
+Lasagna, Unspecified;Other
+Pork Fried Rice;Meat
+Romaine Lettuce, Unspecified;Vegetables
+Sandwich, Wrap;Other
+Hollandaise Sauce;Other
+Tortilla, Unspecified;Rice and Groats
+Pizza, Vegetable;Vegetables
+Turkey, Other;Meat
+Omelette;Dairy
+Iceberg Lettuce, Unspecified;Vegetables
+Soup, Clam Chowder;Fish and Seafood
+Rice, Yellow;Rice and Groats
+Seafood Dish, Unspecified;Fish and Seafood
+Ranch Dressing;Other
+Onion, Unspecified;Vegetables
+Sandwich, Tuna Fish;Fish and Seafood
+Egg Salad/Egg Salad Sandwich;Eggs
+Sushi;Fish and Seafood
+Chow Mein;Other
+Guacamole, Unspecified;Vegetables
+Meat, Unspecified;Meat
+Rolls;Other
+Unknown Food;Unknown
+Deli Meat, Unspecified;Meat
+Fish, Kole;Fish and Seafood
+Vegetable Dip, Unspecified;Vegetables
+Unspecified Vegetables;Vegetables
+Egg-Containing Food, Other;Eggs
+Chicken, Curry;Meat
+Chicken, Marsala;Meat
+Pork, Carnitas;Meat
+Rice, Spanish;Rice and Groats
+Carnitas, Unspecified;Meat
+Specialty/Ethnic Dishes;Multiple Foods
+Fish, Ulua, Unspecified;Fish and Seafood
+Chicken Dishes;Meat
+Sour Cream;Dairy
+Taco Or Nacho Salad;Rice and Groats
+Eggs, Scrambled;Eggs
+Seafood Pasta;Fish and Seafood
+Spring Rolls, Unspecified;Other
+Mushrooms, Unspecified;Mushrooms
+Rice, Fried Rice;Rice and Groats
+Fruit;Fruit
+Mussels, Unspecified;Fish and Seafood
+Bear, Unspecified;Beverages
+Green Beans, Unspecified;Vegetables
+Eggs, Other;Eggs
+Shrimp Salad;Fish and Seafood
+Seabass, Unspecified;Fish and Seafood
+Ham;Meat
+Stew/Chili, Other;Other
+Dips, Unspecified;Other
+Speciality Salads Unspecified;Multiple Foods
+Chicken Fried Rice;Meat
+Ribs, Unspecified;Meat
+Noodles, Unspecified;Rice and Groats
+Mixed Vegetables, Unspecified;Vegetables
+Carne Asada;Meat
+Crab, Steamed;Fish and Seafood
+Chicken, Sweet And Sour;Meat
+Deli Meat, Multiple;Meat
+Clams, Raw;Fish and Seafood
+Ground Beef, Meatloaf;Meat
+Unspecified Beverage;Beverages
+Tomatoes;Vegetables
+Fish, Papio;Fish and Seafood
+Cake, Tiramisu;Sweets and Pastry
+Pie, Merengue;Sweets and Pastry
+Meat Sauce;Meat
+Nachos And Cheese;Dairy
+Tamale, Unspecified;Other
+Rice Dishes, Unspecified;Rice and Groats
+Sausage, Unspecified;Meat
+Watermelon;Fruit
+Lemonade, Unspecified;Beverages
+Chips, Tortilla;Rice and Groats
+Sandwich, Cuban;Other
+Pasta-Based Salads Unspecified;Rice and Groats
+Blue Cheese Dressing;Dairy
+Sausage, Pork;Meat
+Pork, Smoked;Meat
+Beef, Brisket;Meat
+Sandwich, Gyro;Meat
+Mutiple Mexican Foods;Multiple Foods
+Fajita, Beef;Meat
+Turkey And Stuffing;Meat
+Sandwich, Steak;Meat
+Chef Salad;Other
+Burrito, Bean;Vegetables
+Green Beans;Vegetables
+Shrimp, Fried;Fish and Seafood
+Seafood, Unspecified;Fish and Seafood
+Shrimp Cocktail;Fish and Seafood
+Soup Unspecified;Other
+Cheese, Unspecified;Dairy
+Ice Tea;Beverages
+Potato, Baked;Vegetables
+Eggs Benedict;Eggs
+Roast Beef;Meat
+Sandwich, Ham/Cheese;Meat
+French Toast, Unspecified;Other
+Lasagna;Other
+Lasagna, Beef;Meat
+Cupcakes;Sweets and Pastry
+Melon, Unspecified;Fruit
+Chicken Pot Pie;Meat
+Soup, Chicken;Meat
+Cake, Brownie;Sweets and Pastry
+Pulled Pork;Meat
+Potato, Unspecified;Vegetables
+Condiment, Unspecified;Other
+Taco, Chicken;Meat
+Ground Beef, Sloppy Joe;Meat
+Gravy, Sausage;Meat
+Antipasta Salad;Other
+Pancakes, Unspecified;Other
+Enchilada, Unspecified;Other
+Cheese, Pasteurized;Dairy
+Butter;Dairy
+Fish Sandwich, Unspecified;Fish and Seafood
+Seafood Salad;Fish and Seafood
+Beef/Steak Dish, Other;Meat
+Cake, Cheese;Dairy
+Oriental Chicken Salad;Meat
+Sandwich, Club;Other
+Fish, Mackeral;Fish and Seafood
+Shrimp Scampi;Fish and Seafood
+Steak, Sirloin;Meat
+Taco Meat;Meat
+Fish, Puffer Unspecified;Fish and Seafood
+Grapes, Unspecified;Fruit
+Sandwich, Chicken Parmesan;Meat
+Fish, Dolphin;Fish and Seafood
+Chicken, Casserole;Meat
+Fried Onions/Onion Rings, Unspecified;Vegetables
+Cookies;Sweets and Pastry
+Tuna, Bbq;Fish and Seafood
+Sandwich, Other;Other
+Salad, Other;Other
+Crawfish/Crayfish, Unspecified;Fish and Seafood
+Ice, Unspecified;Water
+Stir-Fry, Unspecified;Other
+Stuffed Chicken;Meat
+Pancit;Rice and Groats
+Pork, Chitterlings;Meat
+Hummus;Other
+Alcohol;Beverages
+Doughnuts, Unspecified;Sweets and Pastry
+Bun;Bread
+Crab Salad;Fish and Seafood
+Pastry, Unspecified;Sweets and Pastry
+Burritos;Other
+Deviled Eggs;Eggs
+Beef, Chili;Meat
+Meats;Meat
+Garden Salad;Vegetables
+Deli Tray;Other
+Shredded Chicken;Meat
+Tap Water;Water
+Soup, Beef-Based;Meat
+Fettucine Alfredo;Other
+Sandwich, Hoagie;Other
+Pico De Gallo;Other
+Fish, White;Fish and Seafood
+Sausage, Italian;Meat
+Cucumber;Vegetables
+Milk;Dairy
+Honeydew Melon;Fruit
+Unknown Fish;Fish and Seafood
+Stew/Chili, Unspecified;Other
+Pork, Chops;Meat
+Vegetable Tray;Vegetables
+Barracuda;Fish and Seafood
+Pad Thai, Unspecified;Other
+Snapper, Unspecified;Fish and Seafood
+Sandwich, Pork;Meat
+Peppers, Chili;Vegetables
+Punch, Unspecified;Beverages
+Sphyraena Barracuda;Fish and Seafood
+Pinto Beans;Vegetables
+Shrimp, Steamed;Fish and Seafood
+Scallops, Unspecified;Fish and Seafood
+Vegetables;Vegetables
+Bruschetta;Bread
+Venison;Meat
+Parsley, Unspecified;Vegetables
+Chocolate Milk, Pasteurized;Dairy
+Canoli, Unspecified;Dairy
+Deli Meat, Sliced Ham;Meat
+Chicken, Cordon Bleu;Meat
+Black Beans;Vegetables
+Mesclun Mix, Unspecified;Vegetables
+Ceviche;Fish and Seafood
+Seafood, Other;Fish and Seafood
+Appetizers;Multiple Foods
+Pie, Cream;Dairy
+Miscellaneous;Multiple Foods
+Shrimp;Fish and Seafood
+Bean Dishes;Vegetables
+Ribs, Beef;Meat
+Salad Dressing, Unspecified;Other
+Basil, Unspecified;Vegetables
+Fruit Punch, Unspecified;Beverages
+Chicken, Smoked;Meat
+Chicken Picata;Meat
+Cheese Dip;Dairy
+Fish, Kingfish;Fish and Seafood
+Crab Dishes;Fish and Seafood
+Mexican Style Cheese, Pasteurized;Dairy
+Grey Snapper;Fish and Seafood
+Homemade Cheese, Unpasteurized;Dairy
+Mango, Unspecified;Fruit
+Fish, Jack;Fish and Seafood
+Fish, Palani (Surgeon);Fish and Seafood
+Beef/Steak Dish, Unspecified;Meat
+Tacos;Rice and Groats
+Lobster, Unspecified;Fish and Seafood
+Soup, Wonton;Other
+Eggs;Eggs
+Pudding, Unspecified;Other
+Popcorn;Rice and Groats
+Carrots, Unspecified;Vegetables
+Cheese;Dairy
+Muffin, Unspecified;Sweets and Pastry
+Pasta;Rice and Groats
+Pre-Packaged Salad;Vegetables
+Quesadilla, Chicken;Meat
+Sandwich, Other Egg/Poultry;Eggs
+Fish, Codfish;Fish and Seafood
+Steak;Meat
+Fish, Unspecified;Fish and Seafood
+Liver, Chicken;Meat
+Bean Dip;Vegetables
+Red Beans And Rice;Vegetables
+Lamb, Other;Meat
+Tea, Unspecified;Beverages
+Fish, Stuffed Flounder;Fish and Seafood
+Fish, Wahoo;Fish and Seafood
+Tartar Sauce, Unspecified;Other
+Spinach, Unspecified;Vegetables
+Wine;Beverages
+Pate, Chicken Liver;Meat
+Coffee;Beverages
+Fish Blue Marlin;Fish and Seafood
+Clover Sprouts;Vegetables
+Taco Dip;Other
+Clams, Unspecified;Fish and Seafood
+Dessert Unspecified;Sweets and Pastry
+Fish, Hogfish;Fish and Seafood
+Seafood-Based Salad Unspecified;Fish and Seafood
+Enchilada, Beef;Meat
+Fish, Marlin, Unspecified;Fish and Seafood
+Shell Egg, Other;Fish and Seafood
+Fish Eggs, Unspecified;Fish and Seafood
+Taco, Fish;Fish and Seafood
+Pineapple, Unspecified;Fruit
+Mesclun Mix Salad;Vegetables
+Leaf Lettuce, Unspecified;Vegetables
+Fruit Smoothie;Fruit
+Sausage, Other;Meat
+Chicken Liver Pate;Meat
+Octopus, Unspecified;Fish and Seafood
+Shrimp Coconut;Fish and Seafood
+Bearnaise Sauce;Other
+Wild Mushrooms;Mushrooms
+Cheese Sauce;Dairy
+Gravy;Other
+Orange Juice, Unpasteurized;Beverages
+Tri-Tip;Other
+Antipasto;Other
+Chicken, Liver Mousse;Meat
+Chicken, Cacciatore;Meat
+Ground Turkey, Unspecified;Meat
+Mussels, Steamed;Fish and Seafood
+Green Onion/Scallion;Vegetables
+Fish, Akule;Fish and Seafood
+Green Pea Salad;Vegetables
+Red Salsa;Other
+Meat/Egg-Based Salads, Unspecified;Meat
+Cheese And Crackers;Dairy
+Corned Beef, Unspecified;Meat
+Pie, Unspecified;Sweets and Pastry
+Cilantro, Unspecified;Vegetables
+Lamb, Unspecified;Meat
+Cabbage, Unspecified;Vegetables
+Oysters, Fried;Fish and Seafood
+Goat Milk, Unpasteurized;Dairy
+Fish;Fish and Seafood
+Tomato (See Fruit);Vegetables
+Avocado, Unspecified;Vegetables
+Pudding, Banana;Fruit
+Peppers, Jalapeno;Vegetables
+Salmon, Smoked;Fish and Seafood
+Multiple Cheeses, Unspecified;Dairy
+Fish, Ono;Fish and Seafood
+Egg-In-Muffin-Style Sandwich;Eggs
+Barbecue Sauce;Meat
+Blackberries;Fruit
+Fish, Wahanui;Fish and Seafood
+Steak, Beef Tips;Meat
+Tortilla Chips;Rice and Groats
+Shell Eggs, Scrambled Hard;Fish and Seafood
+Cream Sauce, Unspecified;Dairy
+Bread, Cornbread Dressing;Bread
+Seafood Newberg;Fish and Seafood
+Lettuce, Prepackaged;Vegetables
+Plantains, Unspecified;Fruit
+Seafood Soup/Stew, Unspecified;Fish and Seafood
+Fish, Catfish;Fish and Seafood
+Peanut Butter;Nuts
+Cabbage;Vegetables
+Deli Meat, Sliced Turkey Ham;Meat
+Tuna Dishes, Unspecified;Fish and Seafood
+Peas, Green;Vegetables
+Potatoes;Vegetables
+Ox, Unspecified;Other
+Squid/Calamari, Unspecified;Fish and Seafood
+Manicotti, Unspecified;Other
+Eggs, Over-Easy;Eggs
+Fish, Swordfish;Fish and Seafood
+Spinach Artichoke Dip;Vegetables
+Ground Beef, Sausage;Meat
+Black Beans And Rice;Vegetables
+Oil, Unspecified;Oil
+Duck;Meat
+Salad Dressing;Other
+Chips;Rice and Groats
+Cheddar Cheese, Unspecified;Dairy
+Chicken, Tetrazini;Meat
+Fajitas;Meat
+Swiss Cheese, Pasteurized;Dairy
+Multiple Cheeses, Pasteurized;Dairy
+Chili Sauce, Unspecified;Other
+Tostada, Unspecified;Other
+Soup, Broccoli;Vegetables
+Soup, Other Poultry/Egg;Meat
+Fish Salad;Fish and Seafood
+Fish, Bass;Fish and Seafood
+Hot Dog, Beef;Meat
+Mussels;Fish and Seafood
+Soup, Potato;Vegetables
+Potato Skins;Vegetables
+Corned Beef, Hash;Meat
+Fish, Eel;Fish and Seafood
+Rice Pilaf;Rice and Groats
+Spinach;Vegetables
+Queso Fresco, Unspecified;Dairy
+Salmon, Raw;Fish and Seafood
+Sandwich, Meatball;Meat
+Mozarella, Unspecified;Dairy
+Liquor;Beverages
+Cucumber, Unspecified;Vegetables
+Marinara Sauce;Other
+Shrimp, Raw;Fish and Seafood
+Gumbo, Unspecified;Other
+Cherry Tomato;Vegetables
+Fish, Tilapia;Fish and Seafood
+Blueberries;Fruit
+Sandwich, Bacon, Lettuce, Tomato;Multiple Foods
+Applesauce;Fruit
+Water, Unspecified;Water
+Cake, Carrot;Vegetables
+Sushi, Various Types;Fish and Seafood
+Chicken, Liver;Meat
+Pot Pie;Sweets and Pastry
+Corn, Unspecified;Rice and Groats
+Waldorf Salad;Other
+Broccoli Salad;Vegetables
+Creme Brulee;Sweets and Pastry
+Sandwich, Fajita;Meat
+Shrimp Fried Rice;Fish and Seafood
+Fish, Gifilte;Fish and Seafood
+Stuffed Shells, Unspecified;Fish and Seafood
+Onion Dip;Vegetables
+Jello Salad;Fish and Seafood
+Pate, Unspecified;Other
+Spinach Salad;Vegetables
+Ambrosia;Beverages
+Stuffing/Gravy;Other
+Lemon, Unspecified;Fruit
+Sandwich, Chicken Salad;Multiple Foods
+Crab, Cooked;Fish and Seafood
+Leaf Lettuce;Vegetables
+Chinese;Other
+Sausage;Meat
+Lo Mein, Unspecified;Other
+Prepackaged Leafy Greens;Vegetables
+Red Snapper;Fish and Seafood
+Soup, Other;Other
+Vinagarette-Based Dressing;Other
+Cheese Sticks;Dairy
+Sandwich, Reuben;Other
+Yellow Fin Tuna;Fish and Seafood
+Soup, Mushroom;Mushrooms
+Squid, Fried;Fish and Seafood
+Peaches, Unspecified;Fruit
+Beef, Stroganoff;Meat
+Celery, Unspecified;Vegetables
+Burrito, Cheese;Dairy
+Ham Salad;Meat
+Gravy, Chicken;Meat
+Sandwich, Other Vegetable;Vegetables
+Raw Cake/Cookie Dough;Sweets and Pastry
+Asparagus;Vegetables
+Fish, Albacore;Fish and Seafood
+Clams, Steamed;Fish and Seafood
+Ice Cream, Soft Serve;Dairy
+Dairy;Dairy
+Apple Cider, Unspecified;Beverages
+Nuts, Unspecified;Nuts
+Soup, Cream Of Crab;Fish and Seafood
+Chicken, Tandori;Meat
+Chili;Vegetables
+Mozarella, Pasteurized;Dairy
+Other Cheese, Pasteurized;Dairy
+Beer;Beverages
+Beef, Raw;Meat
+Veggie-Based Pasta;Vegetables
+Pita;Rice and Groats
+Goat, Unspecified;Meat
+Hamburger;Meat
+Soup, French Onion;Vegetables
+Sprouts;Vegetables
+Lobster Bisque;Fish and Seafood
+Beef, Jerky;Meat
+Fish Taco;Fish and Seafood
+Chicken, Rotisserie;Meat
+Clam Chowder;Fish and Seafood
+Fish, Tuna, Spicy Roll;Fish and Seafood
+Pork, Sweet And Sour;Meat
+Pizza, Pepperoni;Meat
+Ribs;Meat
+Fish, Goatfish (Weke), Unspecified;Fish and Seafood
+Fish, Perch;Fish and Seafood
+Chicken, Strips;Meat
+Banana, Unspecified;Fruit
+Potato, Fried;Vegetables
+Chicken, Sesame;Meat
+Yellowtail Tuna;Fish and Seafood
+Asparagus, Unspecified;Vegetables
+Soup, Chicken Noodle;Meat
+Ravioli, Unspecified;Other
+Croissants;Bread
+Beans, Black;Vegetables
+Chicken, Chimichanga;Meat
+Relish, Unspecified;Vegetables
+Bread, Garlic Bread;Bread
+Cake, Custard-Filled;Sweets and Pastry
+Mayonnaise, Unspecified;Eggs
+Crab Soup;Fish and Seafood
+Tuna, Smoked;Fish and Seafood
+Fish, Milkfish (Bangus);Fish and Seafood
+Shrimp Creole;Fish and Seafood
+Clams, Fried;Fish and Seafood
+Bottled Water;Water
+Sandwich, Cucumber;Vegetables
+Crab;Fish and Seafood
+Frosting/Icing, Whipped Cream;Dairy
+Cottage Cheese, Unspecified;Dairy
+Deli Products;Multiple Foods
+Crab, Raw;Fish and Seafood
+Goat, Stew;Meat
+Pie, Coconut Cream;Sweets and Pastry
+Soup, Other Vegetable-Based;Vegetables
+Salami, Unspecified;Meat
+Bagels;Bread
+Fiddle Head Fern;Vegetables
+Crackers, Unspecified;Other
+Salad Bar Items;Other
+Beef, Roast With Gravy;Meat
+Tomatoes, Raw;Vegetables
+Breakfast Sandwich;Other
+Parmesan Cheese, Unspecified;Dairy
+Noodles;Rice and Groats
+Pizza, Sausage And Pepperoni;Meat
+Vegetable-Based Salads;Vegetables
+Chili Verde;Other
+Conch, Unspecified;Fish and Seafood
+Milk/Cream;Dairy
+Speciality Salads;Other
+Crabcake;Fish and Seafood
+Relish Tray;Vegetables
+Pork Tenderloin;Meat
+Broccoli, Unspecified;Vegetables
+Cheesecake;Dairy
+Tortellini, Cheese;Dairy
+Tart, Fruit;Fruit
+Apple Juice, Pasteurized;Beverages
+Salad Mix, Bagged;Vegetables
+Burrito, Pork;Meat
+Carne Asada Steak;Meat
+Turkey Salad;Meat
+Duck, Other;Meat
+Lobster Salad;Fish and Seafood
+Bread, Cornbread;Bread
+Other Vegetable;Vegetables
+Orange Juice, Unspecified;Beverages
+Fish, Mullett;Fish and Seafood
+Eggs, Quiche;Eggs
+Hot Dog, Corn Dog;Other
+Shredded Lettuce;Vegetables
+Vietnamese Sandwich (Chicken And Bbq Pork);Meat
+Sandwich, Turkey Club;Meat
+Quesadilla, Cheese;Dairy
+Spread/Filling, Other;Other
+Chicken Livers;Meat
+Seven-Layer Salad;Other
+Lamb;Meat
+Fish, Trout;Fish and Seafood
+Musubi (Rice In Seaweed);Rice and Groats
+Mung Bean Sprouts;Vegetables
+Salmon, Salted;Fish and Seafood
+Artichoke Dip;Vegetables
+Turkey Dishes;Meat
+Spam;Other
+Ice Cream/Yogurt, Other;Dairy
+Venison, Other;Meat
+Eggnog, Homemade;Eggs
+Peanuts;Nuts
+Beans, Chili;Vegetables
+Dessert, Other;Sweets and Pastry
+Homemade Cheese, Unspecified;Dairy
+Chocolate, Unspecified;Sweets and Pastry
+Beet Salad;Vegetables
+Cuban Sandwich;Other
+Spaghetti W/Meat Sauce And Spaghetti W/Cheese;Multiple Foods
+Coffee Speciality Drink;Beverages
+Sushi, Raw;Fish and Seafood
+Oysters, Steamed;Fish and Seafood
+Pudding, Bread;Bread
+Lo Mein, Chicken;Meat
+Deli Meat, Sliced Roast Beef;Meat
+Dips;Other
+Rice, Brown;Rice and Groats
+Falafel;Other
+Fish, Parrot;Fish and Seafood
+Eclair, Unspecified;Sweets and Pastry
+Steak, Filet Mignon;Meat
+Fish, Seabass;Fish and Seafood
+Deli Meat, Pastrami;Meat
+Peppers, Green;Vegetables
+Stuffing/Dressing;Other
+Bacon, Egg, And Cheese Biscuit;Multiple Foods
+Seal, Oil;Oil
+Pie;Sweets and Pastry
+Shrimp, Grilled;Fish and Seafood
+Quesadilla, Beef/Steak;Meat
+Custard;Other
+Dim Sum;Other
+Pickles;Vegetables
+Chocolate Milk, Unspecified;Dairy
+Sandwich, Speciality;Other
+Chicken Tempura;Meat
+Other Milk, Unspecified;Dairy
+Stuffed Mushroom;Mushrooms
+Soup, Broccoli And Cheese;Multiple Foods
+Beef, Laab Raw;Meat
+Soup, Puffer Fish;Fish and Seafood
+Beef, Chimichanga;Meat
+Clams, Butter;Fish and Seafood
+Pork, Kalua Pig;Meat
+Chicken And Stuffing;Meat
+Cream Cheese;Dairy
+Chicken Mole;Meat
+Black Bear Meat;Meat
+Skipjack Tuna;Fish and Seafood
+Kale;Vegetables
+Tuna Sushi;Fish and Seafood
+Pork, Pepperoni;Meat
+Mussels, Baked;Fish and Seafood
+Meat Casserole;Meat
+Vegetable Fried Rice;Vegetables
+Raspberries;Fruits
+Frozen Yogurt;Dairy
+Cocktail Sauce, Unspecified;Other
+Sope;Rice and Groats
+Turkey Wrap;Meat
+Mayonnaise, Homemade;Eggs
+Spice/Herb, Unspecified;Vegetables
+Bread, White;Bread
+Meat;Meat
+Fish, Reef Unspecified;Fish and Seafood
+Seafood;Fish and Seafood
+Cheese Curds;Dairy
+Nuts, Almonds;Nuts
+Submarine Sandwich;Fish and Seafood
+Soup, Other Fish;Fish and Seafood
+Fish, Other;Fish and Seafood
+Cannelloni;Other
+Orange Juice, Pasteurized;Beverages
+Roma Tomato;Vegetables
+Pretzel;Bread
+Soup, Bean;Vegetables
+Salad Dressings;Other
+Grouper, Black;Fish and Seafood
+Grapes, Red;Fruit
+Frosting/Icing;Water
+Veal, Other;Meat
+Potato Chips;Rice and Groats
+Gravy, Pork;Meat
+Latin Style Soft Cheese;Dairy
+Mole;Other
+Milk, 1% Milk Pasteurized;Dairy
+Whole Milk, Pasteurized;Dairy
+Beans, Bbq;Vegetables
+Papaya;Fruit
+Shell Eggs, Scrambled Soft;Fish and Seafood
+Breads;Bread
+Unknown Beverage;Beverages
+Sandwich, Seafood;Fish and Seafood
+Pruno;Beverages
+Chicken, Shawarma;Meat
+Chicken, Stew;Meat
+Chicken Sandwich;Meat
+Picadilla;Meat
+Lobster, Steamed;Fish and Seafood
+Speciality Dessert Unspecified;Sweets and Pastry
+Ground Beef, Gravy, Toast, Egg Dish;Multiple Foods
+Egg Baked/Casserole;Eggs
+Fried Chicken Salad;Meat
+Mostaccioli, Unspecified;Other
+Eggplant, Unspecified;Vegetables
+Fermented Tofu;Vegetables
+Sandwich, Corned Beef;Meat
+Dietary Supplement;Other
+Fish, Snapper;Fish and Seafood
+Tomato Salad;Vegetables
+Bread, Banana;Sweets and Pastry
+Chicken Tenders;Meat
+Clams, Razor;Fish and Seafood
+Fettuccine Alfredo;Other
+Fish Eggs;Fish and Seafood
+Pepperoni;Vegetables
+Garlic And Oil;Vegetables
+Candy Unspecified;Sweets and Pastry
+Caesar Dressing;Other
+Cake, Ice Cream;Multiple Foods
+Pudding, Rice;Multiple Foods
+Sweet Potato, Unspecified;Vegetables
+Cream, Unspecified;Dairy
+Goat Cheese/Chevre, Unspecified;Dairy
+Gelatin, Unspecified;Meat
+Chutney;Vegetables
+Beef(Fresly Killed Cow), Raw And/Or Undercooked;Meat
+Noodles, Fried;Rice and Groats
+Chocolate Mousse;Sweets and Pastry
+Other Milk, Pasteurized;Dairy
+Lo Mein, Vegetable;Vegetables
+Goat;Meat
+Chicken, Kiev;Meat
+Tomato, Basil And Mozzarella Salad;Multiple Foods
+Cucumber Salad;Vegetables
+Onions;Vegetables
+Shell Eggs, Fried Soft;Fish and Seafood
+Sausage, Pigs In A Blanket;Meat
+Egg-Based Sauce, Other;Eggs
+Sandwich, Tuna Salad;Fish and Seafood
+Bean Sprouts;Vegetables
+Vegetable Platter;Vegetables
+Fish, Scrod;Fish and Seafood
+Pork, Bacon;Meat
+Soup, Other Seafood Chowder;Fish and Seafood
+Zucchini;Vegetables
+Ground Turkey, Burger;Meat
+Chili White Chicken;Meat
+Cobb Salad;Other
+Fish, Buffalo;Fish and Seafood
+Squash, Unspecified;Vegetables
+Desserts;Sweets and Pastry
+Green Chile;Vegetables
+Chicken Taco Salad;Meat
+Biscuit, Unspecified;Sweets and Pastry
+Quesadillas;Dairy
+Other Cheese, Unpasteurized;Dairy
+Burrito, Chili Verde;Vegetables
+Tomato Sauce, Unspecified;Vegetables
+Batch Egg, Other;Eggs
+Tortilla Espanola;Other
+Fettuccine Alfredo With Chicken And Broccoli;Multiple Foods
+Ziti & Meatballs;Meat
+Pasta Pesto;Rice and Groats
+Chicken Coconut Curry;Meat
+Beef, Creamed/Chipped;Meat
+Lamb Curry;Meat
+Beets, Unspecified;Vegetables
+Cheese/Rice;Multiple Foods
+Stink Heads;Fish and Seafood
+Yoba Salad;Other
+Buffalo Chicken Salad;Meat
+Tzatziki Sauce;Other
+Pomegranate Seeds;Fruit
+Salmon Heads;Fish and Seafood
+Chicken, Milan;Meat
+Chicken Suiza;Meat
+Ribs, Bbq;Meat
+Pie, Sugar Free;Sweets and Pastry
+Conch, Raw;Fish and Seafood
+Home Canned Pepper, Unspecified;Vegetables
+French Fries And Ketchup;Vegetables
+Rutabaga;Vegetables
+Mixed Vegetables, Carrots And Celery;Vegetables
+Chicken Wrap;Meat
+Ice Water;Water
+Spanish Piquillo Peppers With Goat Cheese;Dairy
+Rice Bowl, Unspecified;Rice and Groats
+Other Cheese;Dairy
+Frog Legs;Meat
+Salmon Eggs;Fish and Seafood
+Hard Candy, Unspecified;Sweets and Pastry
+Cheese Bread;Bread
+Lime;Fruit
+Hot Dog, Mixed Meat;Meat
+Salt;Other
+Turkish Pine Nuts;Nuts
+Ginger;Vegetables
+American Cheese, Pasteurized;Dairy
+Fish Hot Pot;Fish and Seafood
+Mixed Meats, Unspecified;Meat
+Home Made Potato Salad;Vegetables
+Scrambled Eggs;Eggs
+Tart, Unspecified;Sweets and Pastry
+Grapefruit, Unspecified;Fruit
+Head Cheese;Dairy
+Mexican Wheat Snack;Rice and Groats
+Wonton, Unspecified;Other
+Tarantulas;Other
+Blood Sausage;Meat
+Cottage Cheese, Unpasteurized;Dairy
+Sandwich And Salad;Multiple Foods
+Shrimp And Artichoke Dip;Fish and Seafood
+Chicken And Barley;Meat
+Rabbit, Jerky;Meat
+Pork Belly;Meat
+Lasagna, Vegetarian;Vegetables
+Smoked Sausage;Meat
+Roast Beef With Mushroom Burgundy Sauce;Multiple Foods
+Tuscany Salad;Other
+Shrimp Sauce, Unspecified;Fish and Seafood
+Cotton Candy;Sweets and Pastry
+Pumpkin, Unspecified;Vegetables
+Tuna Croissant;Fish and Seafood
+Burrito (Bean & Cheese);Multiple Foods
+Chicken Wings, Bbq;Meat
+Beverage With Ice, Unspecified;Beverages
+Crab Newburgh;Fish and Seafood
+Mahi - Mahi Burger;Meat
+Fruit Platter;Fruit
+Soup, Vietnamese Pho;Other
+Zucchini, Marinated;Vegetables
+Sashimi;Fish and Seafood
+Acai, Bananas, Strawberries, Sugar Cane Juice;Fruit
+Chile Con Queso;Other
+Chicken, Kellaguin;Meat
+Dosai;Other
+Sandwich, Fish-Based;Fish and Seafood
+Red Grouper;Fish and Seafood
+Pizza, Tostada;Other
+Kare Kare;Other
+Bread, Wheat;Bread
+Rigatoni, Unspecified;Meat
+Sprouted Nut Butter;Nuts
+Rattlesnake Cake;Sweets and Pastry
+Fish, King Mackarel;Fish and Seafood
+Fish, Bacalao (Dried Cod);Fish and Seafood
+Malai Kofta;Meat
+Pastry, Apple Turnover;Sweets and Pastry
+Arepas;Bread
+Frosting/Icing, Unspecified;Water
+Mushroom Burger;Mushrooms
+Fish, Chillo;Fish and Seafood
+Pork And Sauerkraut;Meat
+Tabouleh Salad;Other
+Cheese Products;Dairy
+Doughnuts;Sweets and Pastry
+Multiple Cheeses, Unpasteurized;Dairy
+Beef/Bean Mixture;Multiple Foods
+Pork, Pigs Feet;Meat
+Tuna, Grilled;Fish and Seafood
+Meat, Other;Meat
+Chicken, Raw;Meat
+Cream Puff;Dairy
+Mexican Corn;Vegetables
+Cheesey Bread;Bread
+Chocolate Torte;Sweets and Pastry
+Chocolate Bar;Sweets and Pastry
+Herbal Tea;Beverages
+Fruit Cocktail;Beverages
+Creme-Filled Doughnut;Sweets and Pastry
+Fish, Tuna Dishes;Fish and Seafood
+Chocolate Covered Strawberries;Fruit
+Moose;Sweets and Pastry
+Lobster Cannelloni With Shrimp;Fish and Seafood
+Dal Masala;Other
+Carrot Juice, Pasteurized;Beverages
+Oysters, Baked;Fish and Seafood
+Fried Fish;Fish and Seafood
+Spinach Dip;Vegetables
+Frosting/Icing, Buttercream;Dairy
+Bison;Meat
+Meal Replacement Powder;Other
+Chicken Yak;Meat
+Fruit Cup, Water, Ice;Multiple Foods
+Lentil Soup;Vegetables
+Hot Dog;Other
+Fruit-Based Salads;Fruit
+Cheese Dish, Other;Dairy
+Sushi (Korean Kimbap);Fish and Seafood
+Pesto;Vegetables
+Potato, Scalloped;Vegetables
+Chicken, Honey Mustard;Meat
+Kidney Bean;Vegetables
+Fish, Knifejaw;Fish and Seafood
+Candy, Fruit-Flavored Chewy;Sweets and Pastry
+Sausage, Mettwurst;Meat
+Cookies, Chocolate Chip;Sweets and Pastry
+Shrimp Kelaguin;Fish and Seafood
+Cheesecake Shooters;Dairy
+Vanilla Cake;Sweets and Pastry
+Beef, Steamship Round;Meat
+Posole;Vegetables
+Teppanyaki (Japanese Cuisine);Other
+Quesadilla, Unspecified;Dairy
+Milk, 2% Milk Pasteurized;Dairy
+Thai Chicken Lettuce Wrap;Meat
+Fish, Marlin;Fish and Seafood
+Migas;Other
+Cheesy Chicken And Rice Frozen Meal;Multiple Foods
+Chicken, Confit;Meat
+Salami;Meat
