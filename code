@@ -14,128 +14,49 @@ SELECT <column_name>,
 FROM lifestyle_info
 GROUP BY <column_name>; --for every categorical field
 
-SELECT *
+SELECT COUNT(*)
 FROM outbreaks
 WHERE illnesses = 0; --these records don't make sense for quantitative analysis
 
- /* DATA STATISTICS */
+ /* DATA EXPLORATION */
 
---Quantitative data
+--Number of records (not null)
 
-SELECT AVG(<column_name>) AS mean,
-	PERCENTILE_CONT(0.5) WITHIN GROUP(ORDER BY <column_name> ASC) AS median,
-	MODE() WITHIN GROUP(ORDER BY <column_name> ASC),
-	STDDEV(<column_name>) AS sd,
-	VARIANCE(<column_name>),
-	MIN(<column_name>),
-	MAX(<column_name>),
-	MAX(<column_name>) - MIN(<column_name>) AS range,
-	PERCENTILE_CONT(0.75) WITHIN GROUP(ORDER BY <column_name> ASC) – 
-PERCENTILE_CONT(0.25) WITHIN GROUP(ORDER BY <column_name> ASC) AS iqr
-FROM sleep_analysis; --where <column_name> can be: age, sleep_duration, sleep_quality, physical_activity_level, stress_level, heart_rate, daily_steps, systolic, diastolic
+SELECT COUNT(*)
+FROM outbreaks
+WHERE illnesses <> 0
 
---Qualitative data
+--Number of records (not null) per year
 
-SELECT <column_name>,
+SELECT year,
 	COUNT(*)
-FROM sleep_analysis
-GROUP BY <column_name>; --where <column_name> can be: gender, age_category, occupation, bmi_category, sleep_disorder
+FROM outbreaks
+WHERE illnesses <> 0
+GROUP BY year
+ORDER BY year ASC;
 
-/* Q1: WHO SLEEPS BETTER CONSIDERING AGE, GENDER AND OCCUPATION? */
+--Number of illnesses, hospitalizations and 
 
---Relationship between sleep length and quality
+/* Q1: HOW HAVE FOODBORNE DISEASE OUTBREAKS EVOLVED OVER TIME? */
 
-SELECT CORR(sleep_duration, sleep_quality)
-FROM sleep_analysis;
+--FBD statistics by month
 
--- Age
+--FBD statistics by year
 
-SELECT CORR(age, sleep_duration) AS age_vs_sd,
-	CORR(age, sleep_quality) AS age_vs_sq
-FROM sleep_analysis;
+--Most common causes of FBD over the years 
 
-SELECT age_category,
-	COUNT(*),
-	AVG(sleep_duration) AS mean_sleep_length,
-	AVG(sleep_quality) AS mean_sleep_quality
-FROM sleep_analysis
-GROUP BY age_category
-ORDER BY age_category ASC;
+/* Q2: WHICH FOODS AND LOCATIONS POSE THE HIGHEST RISK FOR FOODBORNE DISEASE CONTAMINATION? */
 
---Gender
+--Foods
 
-SELECT gender,
-	COUNT(*),
-	AVG(sleep_duration) AS mean_sleep_length,
-	AVG(sleep_quality) AS mean_sleep_quality
-FROM sleep_analysis
-GROUP BY gender;
+--Locations
 
---Age and gender
+--Foods and locations
 
-SELECT age_category,
-	gender,
-	COUNT(*),
-	AVG(sleep_duration) AS mean_sleep_length,
-	AVG(sleep_quality) AS mean_sleep_quality
-FROM sleep_analysis
-GROUP BY age_category, gender
-ORDER BY age_category ASC, gender ASC;
+/* Q3: WHICH PATHOGENES PRESENT THE GREATEST THREAT TO PUBLIC HEALTH? */
 
---Occupation
+--Number of illnesses, hospitalizations and deaths by category
 
-SELECT occupation,
-	COUNT(*),
-	AVG(sleep_duration) AS mean_sleep_length,
-	AVG(sleep_quality) AS mean_sleep_quality
-FROM sleep_analysis
-GROUP BY occupation;
+--Number of illnesses, hospitalizations and deaths by species
 
-/* Q2: HOW STRESS, PHYSICAL ACTIVITY AND BASIC HEALTH INDICATORS ASSOCIATE WITH SLEEP PARAMETERS? */
-
-SELECT CORR(stress_level, sleep_duration) AS sl_vs_sd,
-	CORR(stress_level, sleep_quality) AS sl_vs_sq,
-	CORR(physical_activity_level, sleep_duration) AS pal_vs_sd,
-	CORR(physical_activity_level, sleep_quality) AS pal_vs_sq,
-	CORR(daily_steps, sleep_duration) AS ds_vs_sd,
-	CORR(daily_steps, sleep_quality) AS ds_vs_sq,
-	CORR(systolic::INTEGER, sleep_duration) AS s_vs_sq,
-	CORR(systolic::INTEGER, sleep_quality) AS s_vs_sq,
-	CORR(diastolic::INTEGER, sleep_duration) AS d_vs_sq,
-	CORR(diastolic::INTEGER, sleep_quality)AS d_vs_sq,
-	CORR(heart_rate, sleep_duration) AS hr_vs_sq,
-	CORR(heart_rate, sleep_quality) AS hr_vs_sq
-FROM sleep_analysis;
-
-/* Q3: WHAT ARE THE DIFFERENCES BETWEEN HEALTHY INDIVIDUALS AND THOSE WITH SLEEPING DISORDER? */
-
---Sleep disorder prevalence
-
-SELECT *,
-	ROUND((sd.count / 373 * 100), 2) AS sleep_disorder_percentage
-FROM(SELECT sleep_disorder,
-		COUNT(*)::NUMERIC
-	FROM sleep_analysis
-	GROUP BY sleep_disorder) AS sd; --subquery in FROM statement to preaggregate and change data type
-
---Measurable parameters in healthy indviduals and those with sleeping disorder
-
-SELECT sleep_disorder,
-	AVG(sleep_duration) AS mean_sleep_length,
-	AVG(sleep_quality) AS mean_sleep_quality,
-	AVG(age) AS mean_age,
-	AVG(physical_activity_level) AS mean_activity_level,
-	AVG(daily_steps) AS mean_daily_steps,
-	AVG(systolic::INTEGER) AS mean_systolic_bp,
-	AVG(diastolic::INTEGER) AS mean_diastolic_bp,
-	AVG(heart_rate) AS mean_heart_rate
-FROM sleep_analysis
-GROUP BY sleep_disorder;
-
---Association of sleep disorder with weight
-
-SELECT sleep_disorder,
-	bmi_category,
-	COUNT(*)
-FROM sleep_analysis
-GROUP BY CUBE(sleep_disorder, bmi_category);
+--Number of illnesses, hospitalizations and deaths by genus (if applicable)
