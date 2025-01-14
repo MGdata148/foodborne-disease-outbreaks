@@ -35,13 +35,67 @@ WHERE illnesses <> 0
 GROUP BY year
 ORDER BY year ASC;
 
---Number of illnesses, hospitalizations and 
+--Number of records (not null) per food category
+
+SELECT f.food_category,
+	COUNT(*)
+FROM outbreaks AS o
+INNER JOIN food_categories AS f
+	ON o.food = f.food
+WHERE o.illnesses <> 0
+GROUP BY f.food_category
+ORDER BY f.food_category ASC;
+
+--Number of records (not null) per species category
+
+SELECT s.species_category,
+	COUNT(*)
+FROM outbreaks AS o
+INNER JOIN species_categories AS s
+	ON o.species = s.species
+WHERE o.illnesses <> 0
+GROUP BY s.species_category
+ORDER BY s.species_category ASC;
+
+--Number of illnesses, hospitalizations and fatalities registered overall
+
+SELECT SUM(illnesses) AS total_illnesses,
+	SUM(hospitalizations) AS total_hospitalizations,
+	SUM(fatalities) AS total_fatalities
+FROM outbreaks;
 
 /* Q1: HOW HAVE FOODBORNE DISEASE OUTBREAKS EVOLVED OVER TIME? */
 
 --FBD statistics by month
 
+WITH month_numbers AS (SELECT month,
+			EXTRACT(MONTH FROM TO_DATE(month, 'Month')) AS month_number
+		FROM outbreaks
+		GROUP BY month) --cte enables ordering months according to their true order
+
+SELECT o.month,
+	COUNT(*) AS number_of_records,
+	SUM(o.illnesses) AS total_illnesses,
+	SUM(o.hospitalizations) AS total_hospitalizations,
+	SUM(o.fatalities) AS total_fatalities
+FROM outbreaks AS o
+INNER JOIN month_numbers AS m
+	ON o.month = m.month
+WHERE o.illnesses <> 0
+GROUP BY o.month, m.month_number
+ORDER BY m.month_number ASC;
+
 --FBD statistics by year
+
+SELECT year,
+	COUNT(*) AS number_of_records,
+	SUM(illnesses) AS total_illnesses,
+	SUM(hospitalizations) AS total_hospitalizations,
+	SUM(fatalities) AS total_fatalities
+FROM outbreaks
+WHERE illnesses <> 0
+GROUP BY year
+ORDER BY year ASC;
 
 --Most common causes of FBD over the years 
 
