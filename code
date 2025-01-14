@@ -14,34 +14,11 @@ SELECT <column_name>,
 FROM lifestyle_info
 GROUP BY <column_name>; --for every categorical field
 
-/* TABLE PREPARATION */
+SELECT *
+FROM outbreaks
+WHERE illnesses = 0; --these records don't make sense for quantitative analysis
 
--- Cleaned table with added age_category field and blood_pressure splitted to systolic and diastolic stored as a view
-
-CREATE VIEW sleep_analysis AS SELECT id,
-    				gender,
-    				age,
-				CASE WHEN age < 35 THEN '< 35'
-					WHEN age < 40 THEN '35 - 39'
-					WHEN age < 45 THEN '40 - 44'
-					WHEN age < 50 THEN '45 - 49'
-					WHEN age < 55 THEN '50 - 54'
-					ELSE '55 +' END AS age_category, --age categories added for more precise analysis
-				occupation,
-    				sleep_duration,
-    				sleep_quality,
-    				physical_activity_level,
-    				stress_level,
-    				REPLACE(bmi_category, 'Normal Weight', 'Normal') AS bmi_category, --fixed the problem with two categories refering to the same interval
-    				blood_pressure,
-				SPLIT_PART(blood_pressure, '/', 1) AS systolic,
-				SPLIT_PART(blood_pressure, '/', 2) AS diastolic, --blood pressure parameters separated to enable quantitation
-				heart_rate,
-    				daily_steps,
-    				sleep_disorder
-			FROM lifestyle_info;
-
-/* DATA STATISTICS */
+ /* DATA STATISTICS */
 
 --Quantitative data
 
