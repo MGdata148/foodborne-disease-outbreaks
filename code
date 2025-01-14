@@ -68,22 +68,17 @@ FROM outbreaks;
 
 --FBD statistics by month
 
-WITH month_numbers AS (SELECT month,
-			EXTRACT(MONTH FROM TO_DATE(month, 'Month')) AS month_number
-		FROM outbreaks
-		GROUP BY month) --cte enables ordering months according to their true order
-
-SELECT o.month,
+SELECT sq.month,
 	COUNT(*) AS number_of_records,
-	SUM(o.illnesses) AS total_illnesses,
-	SUM(o.hospitalizations) AS total_hospitalizations,
-	SUM(o.fatalities) AS total_fatalities
-FROM outbreaks AS o
-INNER JOIN month_numbers AS m
-	ON o.month = m.month
-WHERE o.illnesses <> 0
-GROUP BY o.month, m.month_number
-ORDER BY m.month_number ASC;
+	SUM(sq.illnesses) AS total_illnesses,
+	SUM(sq.hospitalizations) AS total_hospitalizations,
+	SUM(sq.fatalities) AS total_fatalities
+FROM (SELECT*,
+	EXTRACT(MONTH FROM TO_DATE(month, 'Month')) AS month_number
+	FROM outbreaks) AS sq --subquery enables correct months ordering
+WHERE sq.illnesses <> 0
+GROUP BY sq.month, sq.month_number
+ORDER BY sq.month_number ASC;
 
 --FBD statistics by year
 
@@ -97,7 +92,24 @@ WHERE illnesses <> 0
 GROUP BY year
 ORDER BY year ASC;
 
---Most common causes of FBD over the years 
+--Most common causes of FBD over the years
+
+WITH species_counts AS (SELECT year,
+				species,
+				COUNT(*)
+			FROM outbreaks
+			WHERE illnesses <> 0
+				AND species IS NOT NULL
+			GROUP BY year, species), --first cte to count outbreaks per year and species
+species_ranking AS (SELECT*,
+			RANK() OVER(PARTITION BY year ORDER BY count DESC) AS rank
+		FROM species_counts
+		GROUP BY year, species, count) --second cte to rank by descending count
+
+SELECT year,
+	species
+FROM species_ranking
+WHERE rank = 1;
 
 /* Q2: WHICH FOODS AND LOCATIONS POSE THE HIGHEST RISK FOR FOODBORNE DISEASE CONTAMINATION? */
 
