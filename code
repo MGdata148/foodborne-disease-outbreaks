@@ -1,4 +1,4 @@
-/* DATA CLEANING */
+/* DATA EXPLORATION */
 
 --Missing values
 
@@ -17,8 +17,6 @@ GROUP BY <column_name>; --for every categorical field
 SELECT COUNT(*)
 FROM outbreaks
 WHERE illnesses = 0; --these records don't make sense for quantitative analysis
-
- /* DATA EXPLORATION */
 
 --Number of records (not null)
 
@@ -113,11 +111,11 @@ WHERE rank = 1;
 
 /* Q2: WHICH FOODS AND LOCATIONS POSE THE HIGHEST RISK FOR FOODBORNE DISEASE CONTAMINATION? */
 
---Foods
+--Top 3 most dangerous foods
 
 --Locations
 
---Foods and locations
+--States
 
 /* Q3: WHICH PATHOGENES PRESENT THE GREATEST THREAT TO PUBLIC HEALTH? */
 
