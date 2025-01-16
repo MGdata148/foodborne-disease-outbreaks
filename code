@@ -123,7 +123,7 @@ GROUP BY f.food_category
 ORDER BY count DESC
 LIMIT 3;
 
---Meat type most frequently causing FBD
+--Meat types most frequently causing FBD
 
 WITH meat_types AS (SELECT food,
 			ingredient,
@@ -143,9 +143,19 @@ WHERE meat_type <> 'Other'
 GROUP BY meat_type
 ORDER BY count DESC;
 
---Locations
+--The most common locations and their FBD data
 
---States
+SELECT location,
+	COUNT(*) AS report_count,
+	SUM(illnesses) / COUNT(*) AS illnesses_per_report,
+	ROUND((SUM(hospitalizations::DECIMAL) / SUM(illnesses::DECIMAL) * 100), 2) AS hospitalizations_percentage,
+	ROUND((SUM(fatalities::DECIMAL) / SUM(illnesses::DECIMAL) * 100), 2) AS deaths_percentage
+FROM outbreaks
+WHERE illnesses <> 0
+	AND location IS NOT NULL
+	AND location <> 'Unknown'
+GROUP BY location
+ORDER BY report_count DESC;
 
 /* Q3: WHICH PATHOGENES PRESENT THE GREATEST THREAT TO PUBLIC HEALTH? */
 
