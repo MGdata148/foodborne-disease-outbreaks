@@ -111,7 +111,37 @@ WHERE rank = 1;
 
 /* Q2: WHICH FOODS AND LOCATIONS POSE THE HIGHEST RISK FOR FOODBORNE DISEASE CONTAMINATION? */
 
---Top 3 most dangerous foods
+--Top 3 most dangerous food categories
+
+SELECT f.food_category,
+	COUNT(*)
+FROM outbreaks AS o
+INNER JOIN food_categories AS f
+	ON o.food = f.food
+WHERE o.illnesses <> 0
+GROUP BY f.food_category
+ORDER BY count DESC
+LIMIT 3;
+
+--Meat type most frequently causing FBD
+
+WITH meat_types AS (SELECT food,
+			ingredient,
+			CASE WHEN food ILIKE '%chicken%' OR ingredient ILIKE '%chicken%'
+					OR food ILIKE '%duck%' OR ingredient ILIKE '%duck%'
+					OR food ILIKE '%turkey%' OR ingredient ILIKE '%turkey%'THEN 'Poultry'
+				WHEN food ILIKE '%beef%' OR ingredient ILIKE '%beef%' THEN 'Beef'
+				WHEN food ILIKE '%pork%' OR ingredient ILIKE '%pork%' THEN 'Pork'
+				ELSE 'Other' END AS meat_type
+		FROM outbreaks
+		WHERE illnesses <> 0)
+
+SELECT meat_type,
+	COUNT(*)
+FROM meat_types
+WHERE meat_type <> 'Other'
+GROUP BY meat_type
+ORDER BY count DESC;
 
 --Locations
 
