@@ -132,14 +132,14 @@ WITH meat_types AS (SELECT food,
 					OR food ILIKE '%turkey%' OR ingredient ILIKE '%turkey%'THEN 'Poultry'
 				WHEN food ILIKE '%beef%' OR ingredient ILIKE '%beef%' THEN 'Beef'
 				WHEN food ILIKE '%pork%' OR ingredient ILIKE '%pork%' THEN 'Pork'
-				ELSE 'Other' END AS meat_type
+				ELSE 'Other' END AS meat_type -- case statement to simplify counting of most popular meat types from description of the contaminated meal
 		FROM outbreaks
-		WHERE illnesses <> 0)
+		WHERE illnesses <> 0) -- cte to preselect and prefilter data
 
 SELECT meat_type,
 	COUNT(*)
 FROM meat_types
-WHERE meat_type <> 'Other'
+WHERE meat_type <> 'Other' --'Other' refers to both other types of meat and meals without meat so it is excluded from analysis
 GROUP BY meat_type
 ORDER BY count DESC;
 
@@ -159,8 +159,44 @@ ORDER BY report_count DESC;
 
 /* Q3: WHICH PATHOGENES PRESENT THE GREATEST THREAT TO PUBLIC HEALTH? */
 
---Number of illnesses, hospitalizations and deaths by category
+--Illnesses, hospitalizations, and deaths by species category
 
---Number of illnesses, hospitalizations and deaths by species
+WITH category_summarized AS (SELECT s.species_category,
+				SUM(o.illnesses) AS total_illnesses,
+				SUM(o.hospitalizations) AS total_hospitalizations,
+				SUM(o.fatalities) AS total_deaths
+			FROM outbreaks AS o
+			INNER JOIN species_categories AS s
+				ON o.species = s.species
+			GROUP BY s.species_category) --cte to summarize illnesses, hospitalizations and deaths per species category
 
---Number of illnesses, hospitalizations and deaths by genus (if applicable)
+SELECT species_category,
+	total_illnesses,
+	RANK() OVER(ORDER BY total_illnesses DESC) AS illnesses_rank,
+	total_hospitalizations,
+	RANK() OVER(ORDER BY total_hospitalizations DESC) AS hospitalizations_rank,
+	total_deaths,
+	RANK() OVER(ORDER BY total_deaths DESC) AS deaths_rank
+FROM category_summarized
+ORDER BY illnesses_rank ASC; --rankings created to easier recognize the greatest threat
+
+--FBD caused by biological agents by genus (for viruses, bacteria and parasites)
+
+SELECT SPLIT_PART(species, ' ', 1) AS genus, --species field transformed to show only genus name
+	SUM(illnesses) AS total_illnesses,
+	SUM(hospitalizations) AS total_hospitalizations,
+	SUM(fatalities) AS total_deaths
+FROM outbreaks
+WHERE species IN (SELECT species
+		FROM species_categories
+		WHERE species_category IN ('Virus', 'Bacteria', 'Parasite')) --subquery to use information from species_categories as a filter
+GROUP BY genus;
+
+--The deadliest cause of FBD
+
+SELECT species,
+	SUM(fatalities) AS total_deaths
+FROM outbreaks
+GROUP BY species
+ORDER BY total_deaths DESC
+LIMIT 1;
