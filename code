@@ -147,7 +147,7 @@ ORDER BY count DESC;
 
 SELECT location,
 	COUNT(*) AS report_count,
-	SUM(illnesses) / COUNT(*) AS illnesses_per_report,
+	ROUND(AVG(illnesses), 0) AS illnesses_per_report,
 	ROUND((SUM(hospitalizations::DECIMAL) / SUM(illnesses::DECIMAL) * 100), 2) AS hospitalizations_percentage,
 	ROUND((SUM(fatalities::DECIMAL) / SUM(illnesses::DECIMAL) * 100), 2) AS deaths_percentage
 FROM outbreaks
