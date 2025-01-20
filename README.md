@@ -37,5 +37,11 @@ Data was analyzed using [PostgreSQL](https://www.postgresql.org/) and visualised
 - [Visualisation](https://public.tableau.com/views/Sleepanalysis_17347068539190/SleepAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ### Conclusions
-
+1. Foodborne disease outbreaks occured more frequently and had higher rates of hospitalizations and fatalities from April to June, which can be related to warm temperatures favoring the growth of microorganisms.
+2. Both number of reported foodborne disease outbreaks and total number of cases showed a tendency to decrease over the years, what may indicate raising awareness and improvement in food supply chain.
+3. Meat, fish and seafood, and vegetables were food categories most frequently causing foodborne diseases, respectively. This probably results from their high consumption rates combined with short shelf life and susceptibility to the development of microorganisms.
+4. The type of meat responsible for the most of registered foodborne diseases was poultry, which is a common source of dangerous bacteria, e.g. *Salmonella*, *Campylobacter*.
+5. Restaurants were the most common location for foodborne disease outbreaks, however the average number of cases was much higher in public utility facilities, where many people eat the same meals. The most dangerous foodborne disease outbreaks took place at assisted livig facilities and hospitals probably due to comorbid conditions of patients. Private homes and farms also showed high rates of hospitalizations and fatalities, which may be due to lack of compliance with food storage standards.
+6. Foodbore disease outbreaks were most commonly caused by viruses and bacteria with *Norovirus*, *Salmonella*, and *Clostridium* occuring the most frequently.
+7. The deadliest cause of foodborne disease outbreakes was *Listeria monocytogenes*, which is known for its high mortality rate of up to 30%.
 
