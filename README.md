@@ -32,9 +32,9 @@ Despite the main table two dimension tables were prepared: `food_categories` and
 
 ### Data analysis and visualisation
 Data was analyzed using [PostgreSQL](https://www.postgresql.org/) and visualised in [Tableau](https://public.tableau.com/app/discover). 
-- [Data cleaning and analysis](https://github.com/MGdata148/sleep-analysis/blob/main/code)
-- [Results](https://github.com/MGdata148/sleep-analysis/blob/main/results.docx)
-- [Visualisation](https://public.tableau.com/views/Sleepanalysis_17347068539190/SleepAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Data cleaning and analysis](https://github.com/MGdata148/foodborne-disease-outbreaks/blob/main/code)
+- [Results](https://github.com/MGdata148/foodborne-disease-outbreaks/blob/main/results.docx)
+- [Visualisation](https://public.tableau.com/app/profile/magdalena.gromadzka/viz/FoodborneDiseaseOutbreaks_17376270395320/Dashboard1)
 
 ### Conclusions
 1. Foodborne disease outbreaks occured more frequently and had higher rates of hospitalizations and fatalities from April to June, which can be related to warm temperatures favoring the growth of microorganisms.
